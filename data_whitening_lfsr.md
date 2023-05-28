@@ -1,3 +1,8 @@
+---
+title: Data whitening used in RF
+keywords: rf, whitening, lfsr, cc1101, rf69, rfm69, sx1231
+---
+
 # Data whitening used in RF
 
 In RF communication systems, data whitening techniques are employed to address the issue of DC bias introduced by long sequences of 0s or 1s within transmitted data packets. It is crucial to eliminate these patterns as they can adversely affect signal integrity and synchronization. In this tutorial, we will explore the data whitening algorithms used in the CC1101 and RF69 (SX1231) chip families. Detailed descriptions of these algorithms can be found in the NXP application note https://www.nxp.com/docs/en/application-note/AN5070.pdf
